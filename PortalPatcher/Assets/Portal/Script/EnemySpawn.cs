@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemySpawn : MonoBehaviour
 {
-    [SerializeField] private GameObject enemy, spawn, portal;
+    [SerializeField] private GameObject enemy, spawn;
     public float spawnTime, spawnDelay;
 
 
@@ -15,7 +15,6 @@ public class EnemySpawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         spawnDelay -= Time.deltaTime;
 
         if (spawnDelay <= 0)
