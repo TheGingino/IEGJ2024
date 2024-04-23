@@ -6,6 +6,7 @@ TagManager:
   tags:
   - enemy
   - activebook
+  - portal
   layers:
   - Default
   - TransparentFX
