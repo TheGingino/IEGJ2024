@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerClass : CharacterBaseClass
 {
@@ -15,12 +16,12 @@ public class PlayerClass : CharacterBaseClass
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("enemy"))
         {
             TakeDamage(2);
             if (health <= 0)
             {
-                Destroy(gameObject);
+                SceneManager.LoadScene("MainMap");
             }
         }
     }
