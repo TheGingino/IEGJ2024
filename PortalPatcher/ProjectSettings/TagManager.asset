@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags: []
+=======
+  tags:
+  - enemy
+  - activebook
+>>>>>>> origin/Boaz-Dev
   layers:
   - Default
   - TransparentFX
@@ -13,10 +19,14 @@ TagManager:
   - UI
   - 
 <<<<<<< HEAD
+<<<<<<< HEAD
   - 
 =======
   - Ground
 >>>>>>> JasperWork
+=======
+  - 
+>>>>>>> origin/Boaz-Dev
   - 
   - 
   - 

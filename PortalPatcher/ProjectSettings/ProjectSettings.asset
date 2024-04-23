@@ -5,10 +5,14 @@ PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
 <<<<<<< HEAD
+<<<<<<< HEAD
   productGUID: 8fc80f15a8e429a4ba8953f6af98ac2b
 =======
   productGUID: 1e0dfa0532be75c4982e26a2fa1e1d6c
 >>>>>>> JasperWork
+=======
+  productGUID: 33cbd4d67c285b847b5efef44c48930d
+>>>>>>> origin/Boaz-Dev
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
