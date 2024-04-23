@@ -18,8 +18,6 @@ public class FollowingPlayer : MonoBehaviour
         Vector3 pos = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
         rb.MovePosition(pos);
         transform.LookAt(target.transform);
-        Debug.DrawLine(transform.position, target.transform.position, Color.red); // Draw a line between enemy and target
-
     }
     /*public void FollowPlayer()
     {

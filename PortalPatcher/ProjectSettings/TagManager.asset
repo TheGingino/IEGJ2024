@@ -3,13 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - enemy
-<<<<<<< HEAD
-  - activebook
-  - portal
-=======
->>>>>>> Gino-Dev
+  tags: []
   layers:
   - Default
   - TransparentFX
