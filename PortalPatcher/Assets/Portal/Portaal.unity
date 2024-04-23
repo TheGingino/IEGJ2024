@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0078af1bf8be5ca459eaeae0cb235fe7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 1976002730953712166, guid: 49418671fcb643d4f98820373486d2b7, type: 3}
+  enemy: {fileID: 3768353413041880821, guid: 8a2a3f8f7c4dbe64d8ada8d8bda94bba, type: 3}
   spawn: {fileID: 2045226111}
   spawnTime: 6
   spawnDelay: 0
@@ -185,11 +185,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portal:
-  - {fileID: 1226711525}
-  - {fileID: 1467341881}
-  - {fileID: 1678381471}
-  - {fileID: 333521657}
-  activationTime: 5
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  activationTime: 1
 --- !u!1 &170855362
 GameObject:
   m_ObjectHideFlags: 0
@@ -566,11 +582,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1226711525 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  m_PrefabInstance: {fileID: 8355059601007940464}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1301928345
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,7 +742,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -1046,6 +1057,14 @@ PrefabInstance:
     - target: {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
       propertyPath: m_Name
       value: Portal
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976352194397780370, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

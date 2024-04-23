@@ -123,12 +123,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6348202116344605046}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0078af1bf8be5ca459eaeae0cb235fe7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 1976002730953712166, guid: 49418671fcb643d4f98820373486d2b7, type: 3}
+  enemy: {fileID: 3768353413041880821, guid: 8a2a3f8f7c4dbe64d8ada8d8bda94bba, type: 3}
   spawn: {fileID: 3370883140334372920}
   spawnTime: 2
   spawnDelay: 0
