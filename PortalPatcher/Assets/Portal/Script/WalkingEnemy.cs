@@ -10,7 +10,7 @@ public class WalkingEnemy : EnemyClass
         health = maxHealth;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         followPlayer.FollowPlayer();
     }

@@ -1,6 +1,5 @@
 public class EnemyClass : CharacterBaseClass
 {
-
     void Start()
     {
 
