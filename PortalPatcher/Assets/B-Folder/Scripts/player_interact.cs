@@ -8,13 +8,17 @@ public class player_interact : MonoBehaviour
     [SerializeField]
     private GameObject book;
 
+    [SerializeField]
+    private ParticleSystem magic;
+
     private Vector3 bookspawn;
     private bool bookIsSpawned;
     private bool closingPortal;
-    private int ritualTimer;
+    private float ritualTimer;
     private GameObject despawningEnemy;
     private GameObject activePortal;
     private GameObject activeBook;
+    private GameObject activeParticle;
 
     void Update()
     {
@@ -25,13 +29,18 @@ public class player_interact : MonoBehaviour
             
             if (Physics.Raycast(transform.position, transform.forward, out hit, 100f))
             {
-                if (!bookIsSpawned && hit.transform)
+                if (!bookIsSpawned && hit.transform.tag == "enemy" || !bookIsSpawned && hit.transform.tag == "portal")
                 {
                     bookIsSpawned = true;
                     bookspawn = transform.position + transform.forward * 1 - transform.up * 1 / 2;
-                    Instantiate(book, bookspawn, transform.rotation);
-                    activeBook = GameObject.FindWithTag("activebook");
-                    ritualTimer = 200;
+
+                    Instantiate(book, bookspawn, transform.rotation, gameObject.transform);
+                    Instantiate(magic, bookspawn, transform.rotation, gameObject.transform);
+
+                    activeBook = transform.GetChild(2).gameObject;
+                    activeParticle = transform.GetChild(3).gameObject;
+
+                    ritualTimer = 4;
 
                     if (hit.transform.tag == "enemy")
                     {
@@ -54,7 +63,7 @@ public class player_interact : MonoBehaviour
         {
             if (ritualTimer > 0)
             {
-                ritualTimer--;
+                ritualTimer = ritualTimer - 1 * Time.deltaTime;
             }
             else
             {
@@ -69,6 +78,7 @@ public class player_interact : MonoBehaviour
 
                 bookIsSpawned = false;
                 Destroy(activeBook);
+                Destroy(activeParticle);
             }
         }
 
