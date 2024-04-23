@@ -120,7 +120,6 @@ GameObject:
   - component: {fileID: 5442328468072432690}
   - component: {fileID: 6149827078535548423}
   - component: {fileID: 9044080593897572727}
-  - component: {fileID: 9085077671739545458}
   m_Layer: 0
   m_Name: Enemy 1
   m_TagString: Untagged
@@ -254,8 +253,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d7781befcc0d6e45bd3d6c7119ab9f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 4800284106181163029, guid: 000bfb66d08c09f48b646847c2197049, type: 3}
-  speed: 2
+  target: {fileID: 0}
+  speed: 4
 --- !u!114 &9044080593897572727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -269,19 +268,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 3
-  health: 0
-  followPlayer: {fileID: 6149827078535548423}
---- !u!114 &9085077671739545458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3768353413041880821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edb42f42f36f3db40b35b5f609662f4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 0
   health: 0

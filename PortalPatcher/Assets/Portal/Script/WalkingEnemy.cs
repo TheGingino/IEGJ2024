@@ -2,19 +2,18 @@ using UnityEngine;
 
 public class WalkingEnemy : EnemyClass
 {
-    public FollowingPlayer followPlayer;
+    //public FollowingPlayer followPlayer;
+
 
     // Start is called before the first frame update
     void Start()
     {
         health = maxHealth;
     }
-
-    private void FixedUpdate()
+    private void Update()
     {
-        followPlayer.FollowPlayer();
+        //followPlayer.FollowPlayer();
     }
-
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
