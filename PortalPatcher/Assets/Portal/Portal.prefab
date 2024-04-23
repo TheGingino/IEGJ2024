@@ -123,12 +123,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6348202116344605046}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0078af1bf8be5ca459eaeae0cb235fe7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   enemy: {fileID: 2723044281701466554, guid: a16785c91ebe2814a9db7e6572041942, type: 3}
+=======
+  enemy: {fileID: 3768353413041880821, guid: 8a2a3f8f7c4dbe64d8ada8d8bda94bba, type: 3}
+>>>>>>> Gino-Dev
   spawn: {fileID: 3370883140334372920}
   spawnTime: 2
   spawnDelay: 0
