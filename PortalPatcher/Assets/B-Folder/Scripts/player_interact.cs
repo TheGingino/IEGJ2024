@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Analytics;
 
 public class player_interact : MonoBehaviour
 {
@@ -15,6 +12,7 @@ public class player_interact : MonoBehaviour
     private GameObject despawningEnemy;
     private GameObject activePortal;
     private GameObject activeBook;
+    [SerializeField] private AudioSource audioSource;
 
     void Update()
     {
@@ -22,7 +20,7 @@ public class player_interact : MonoBehaviour
         {
 
             RaycastHit hit;
-            
+
             if (Physics.Raycast(transform.position, transform.forward, out hit, 100f))
             {
                 if (!bookIsSpawned && hit.transform)
@@ -32,6 +30,7 @@ public class player_interact : MonoBehaviour
                     Instantiate(book, bookspawn, transform.rotation);
                     activeBook = GameObject.FindWithTag("activebook");
                     ritualTimer = 200;
+                    audioSource.Play();
 
                     if (hit.transform.tag == "enemy")
                     {
