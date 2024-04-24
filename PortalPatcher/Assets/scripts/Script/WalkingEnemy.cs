@@ -13,7 +13,7 @@ public class WalkingEnemy : EnemyClass
     private void Update()
     {
         //followPlayer.FollowPlayer();
-        EnemySound(enemySound);
+        //EnemySound(enemySound);
     }
     private void OnCollisionEnter(Collision collision)
     {
