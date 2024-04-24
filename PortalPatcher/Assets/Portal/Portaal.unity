@@ -253,36 +253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portal:
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
-  - {fileID: 6348202116344605046, guid: 0be3c46f51eaa514bbabd6a181909ece, type: 3}
+  - {fileID: 5565326389558049969, guid: d3e035dac7b27c246b8eb236a3e422bc, type: 3}
   activationTime: 5
   spawnTime: 5
   spawnDelay: 0

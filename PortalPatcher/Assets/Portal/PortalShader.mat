@@ -57,7 +57,7 @@ Material:
     - _BUILTIN_ZWriteControl: 0
     - _Dissolve: 2.5
     - _Scale: 5.72
-    - _Speed: 0
+    - _Speed: 0.5
     - _TwirlStrength: 19.56
     m_Colors:
     - _MaskColor: {r: 954.4048, g: 44.42343, b: 0, a: 1}
