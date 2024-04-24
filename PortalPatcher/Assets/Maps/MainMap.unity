@@ -3859,6 +3859,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2751224304136853126, guid: 7e28382b8ae265a41babfcfecf5bb5ec, type: 3}
+      propertyPath: lives
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079938194933496615, guid: 7e28382b8ae265a41babfcfecf5bb5ec, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -221
+      objectReference: {fileID: 0}
     - target: {fileID: 4091237472377373131, guid: 7e28382b8ae265a41babfcfecf5bb5ec, type: 3}
       propertyPath: m_Name
       value: UI
@@ -4946,7 +4954,7 @@ MonoBehaviour:
   maxHealth: 5
   health: 5
   lives: {fileID: 0}
-  damageTake: 0
+  damageTake: 1
 --- !u!1 &1149336117
 GameObject:
   m_ObjectHideFlags: 0
