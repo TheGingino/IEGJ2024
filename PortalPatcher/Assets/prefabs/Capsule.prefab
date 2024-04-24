@@ -152,6 +152,7 @@ GameObject:
   - component: {fileID: 3818359018806625323}
   - component: {fileID: 2828733559639448219}
   - component: {fileID: 3631670891561947796}
+  - component: {fileID: 4168670608582066502}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -300,6 +301,19 @@ MonoBehaviour:
   groundDistance: 0.4
   groundMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   controller: {fileID: 2828733559639448219}
   cam: {fileID: 5588239605519716032}
+--- !u!114 &4168670608582066502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7284738886659589703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e34873899ed06e4aa50921c5b948540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  book: {fileID: 7141054066410784958, guid: 5f73ef92587a627489f5cfe514e713b4, type: 3}
