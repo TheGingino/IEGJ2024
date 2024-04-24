@@ -318,6 +318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   book: {fileID: 7141054066410784958, guid: 5f73ef92587a627489f5cfe514e713b4, type: 3}
+  magic: {fileID: 2431878145831474909, guid: 2fd35b8b32c26184a938f7b642830f1d, type: 3}
   audioSource: {fileID: 1779717452447242341}
 --- !u!1 &7361576501706680011
 GameObject:
