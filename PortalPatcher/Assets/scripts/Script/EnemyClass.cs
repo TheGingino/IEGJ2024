@@ -1,13 +1,10 @@
+using UnityEngine;
+
 public class EnemyClass : CharacterBaseClass
 {
-    void Start()
+    public virtual void EnemySound(AudioSource enemySound)
     {
-
-    }
-
-    void Update()
-    {
-
+        enemySound.Play();
     }
 
 }
