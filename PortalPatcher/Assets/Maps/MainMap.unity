@@ -8288,6 +8288,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal
       objectReference: {fileID: 0}
+    - target: {fileID: 5565326389558049969, guid: d3e035dac7b27c246b8eb236a3e422bc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8160959221394238923, guid: d3e035dac7b27c246b8eb236a3e422bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.2977614
@@ -9455,5 +9459,5 @@ SceneRoots:
   - {fileID: 1433974991}
   - {fileID: 221896762}
   - {fileID: 939507829}
-  - {fileID: 1230197278}
   - {fileID: 1973874552}
+  - {fileID: 1230197278}
