@@ -22,7 +22,7 @@ public class PlayerClass : CharacterBaseClass
         if (collision.gameObject.CompareTag("enemy"))
         {
             TakeDamage(damageTake);
-            lives.DecreaseLives(damageTake);
+            lives.DecreaseLives(1);
             if (health <= 0)
             {
                 SceneManager.LoadScene("MainMap");
