@@ -164,6 +164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 5
   health: 5
+  enemySound: {fileID: 8926712650524867039}
 --- !u!54 &6673600200386667078
 Rigidbody:
   m_ObjectHideFlags: 0

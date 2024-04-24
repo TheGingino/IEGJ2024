@@ -1882,7 +1882,7 @@ GameObject:
   - component: {fileID: 443537181}
   - component: {fileID: 443537180}
   - component: {fileID: 443537179}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8160,7 +8160,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3631670891561947796, guid: 880ca87dc94460240b523511e557f034, type: 3}
       propertyPath: groundMask.m_Bits
-      value: 0
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 4839792076959693611, guid: 880ca87dc94460240b523511e557f034, type: 3}
       propertyPath: m_LocalPosition.x
