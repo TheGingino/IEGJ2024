@@ -4953,7 +4953,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 5
   health: 5
-  lives: {fileID: 0}
+  lives: {fileID: 2135334307}
   damageTake: 1
 --- !u!1 &1149336117
 GameObject:
@@ -6248,8 +6248,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portal:
   - {fileID: 5565326389558049969, guid: d3e035dac7b27c246b8eb236a3e422bc, type: 3}
-  activationTime: 5
-  spawnTime: 25
+  activationTime: 10
+  spawnTime: 5
   spawnDelay: 0
 --- !u!4 &1433974991
 Transform:
@@ -9340,6 +9340,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7dd861cd6060ab47b3bac5dc7454f5b, type: 3}
+--- !u!114 &2135334307 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2751224304136853126, guid: 7e28382b8ae265a41babfcfecf5bb5ec, type: 3}
+  m_PrefabInstance: {fileID: 939507829}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a92a2558b08624e4b8bf4989c41b11a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2144994839
 PrefabInstance:
   m_ObjectHideFlags: 0

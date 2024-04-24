@@ -3,7 +3,7 @@ using UnityEngine;
 public class WalkingEnemy : EnemyClass
 {
     //public FollowingPlayer followPlayer;
-
+    [SerializeField] private AudioSource enemySound;
 
     // Start is called before the first frame update
     void Start()
@@ -13,6 +13,7 @@ public class WalkingEnemy : EnemyClass
     private void Update()
     {
         //followPlayer.FollowPlayer();
+        EnemySound(enemySound);
     }
     private void OnCollisionEnter(Collision collision)
     {

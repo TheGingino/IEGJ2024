@@ -5,7 +5,6 @@ public class EnemySpawn : MonoBehaviour
     [SerializeField] private GameObject enemy, spawn;
     public float spawnTime, spawnDelay;
 
-
     // Start is called before the first frame update
     void Start()
     {

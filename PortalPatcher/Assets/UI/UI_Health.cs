@@ -8,6 +8,7 @@ public class UI_Health : MonoBehaviour
 
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         UpdateLivesUI();
     }
 
