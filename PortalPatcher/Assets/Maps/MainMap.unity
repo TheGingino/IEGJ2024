@@ -8155,6 +8155,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3631670891561947796, guid: 880ca87dc94460240b523511e557f034, type: 3}
+      propertyPath: gravity
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3631670891561947796, guid: 880ca87dc94460240b523511e557f034, type: 3}
       propertyPath: groundMask.m_Bits
       value: 0
       objectReference: {fileID: 0}
@@ -8164,7 +8168,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4839792076959693611, guid: 880ca87dc94460240b523511e557f034, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.933
+      value: 1.06
       objectReference: {fileID: 0}
     - target: {fileID: 4839792076959693611, guid: 880ca87dc94460240b523511e557f034, type: 3}
       propertyPath: m_LocalPosition.z
